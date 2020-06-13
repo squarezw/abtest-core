@@ -1,0 +1,8 @@
+lib
+.eslintrc.json
+._*
+coverage
+.babelrc
+.hooks
+test
+.travis.yml
