@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp .hooks/* .git/hooks/",
     "lint": "eslint --fix lib"
   },
   "repository": {
