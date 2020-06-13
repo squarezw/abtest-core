@@ -7,7 +7,7 @@
     "test": "npm run build && mocha -t 5000",
     "postinstall": "cp .hooks/* .git/hooks/",
     "lint": "eslint --fix lib",
-    "build": "webpack lib --mode=none",
+    "build": "webpack lib --mode=production",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
