@@ -6,3 +6,4 @@ coverage
 .hooks
 test
 .travis.yml
+webpack.config.js
