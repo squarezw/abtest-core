@@ -34,7 +34,7 @@ deploy/
 target/
 test-output/
 logs/
-dist/
+
 npm-debug.log*
 
 # VS Code
@@ -46,4 +46,3 @@ reports/
 
 .node
 node_modules
-dist
