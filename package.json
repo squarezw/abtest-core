@@ -1,11 +1,10 @@
 {
   "name": "abtest-core",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A ABTesting Core Library",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "npm run build && mocha -t 5000",
-    "postinstall": "cp .hooks/* .git/hooks/",
     "lint": "eslint --fix lib",
     "build": "webpack --mode=production",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha",
